@@ -19,6 +19,9 @@ params:
       url: "https://github.com/JoseBagina"
     - name: linkedin
       url: "https://www.linkedin.com/in/josebagina/"
+    - name: email
+      url: "mailto:data.consigliere@proton.me"
+
 
   assets:
     css:

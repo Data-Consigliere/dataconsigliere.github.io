@@ -3,7 +3,7 @@ title: "About"
 ---
 
 <p style="text-align:center;">
-  <img src="/images/Profile.JPG" alt="Profile" style="max-width:220px; border-radius:6px;">
+  <img src="/images/About.JPG" alt="Profile" style="max-width:220px; border-radius:6px;">
 </p>
 
 Over the years, my work has spanned data architecture, analytics strategy, business intelligence, and performance management. I’ve always been driven by a simple idea: **clarity enables better decisions**. That principle has guided my entire career.
