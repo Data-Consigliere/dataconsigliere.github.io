@@ -27,9 +27,10 @@
   <div class="home-spacing"></div>
 
   <!-- Posts list -->
-  <h2>Posts</h2>
+  <h2>Writings</h2>
 
-  {{ $posts := (where .Site.RegularPages "Section" "posts") | sort "Date" "desc" }}
+  {{ $posts := where .Site.RegularPages "Section" "posts" }}
+  {{ $posts := sort $posts "Date" "desc" }}
 
   {{ if gt (len $posts) 0 }}
     <ul>

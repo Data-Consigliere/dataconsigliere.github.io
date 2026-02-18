@@ -43,7 +43,7 @@ menu:
       weight: 5
 
     - identifier: posts
-      name: Posts
+      name: Writings
       url: /posts/
       weight: 10
 
