@@ -1,0 +1,41 @@
+baseURL: "https://dataconsigliere.github.io/"
+languageCode: "en-us"
+title: "DataConsigliere"
+theme: "PaperMod"
+publishDir: "docs"
+
+params:
+  defaultTheme: "light"        # force light mode
+  disableThemeToggle: true     # hide the dark/light switch
+
+  homeInfoParams:
+    Title: "Hi, I'm José Bagina"
+    Content: >
+      Senior Data & Analytics leader with 30+ years of experience, now expanding into hands-on AI Engineering.
+      Exploring Microsoft Fabric, Azure AI, and modern ML/LLM workflows.
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/JoseBagina"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/josebagina/"
+
+  assets:
+    css:
+      - css/custom.css          # your custom styling
+
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 10
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 20
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true              # allows HTML in Markdown (needed for your <img> block)

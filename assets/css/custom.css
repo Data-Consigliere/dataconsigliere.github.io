@@ -1,0 +1,76 @@
+/* ----------------------------------------
+   DataConsigliere – Signature Minimalist Look
+   ---------------------------------------- */
+
+/* Color system */
+:root {
+    --accent: #2A3B47;
+    --accent-light: #3C4F5C;
+    --text-main: #1F1F1F;
+    --text-soft: #555555;
+    --bg-soft: #F7F9FA;
+}
+
+/* Global typography */
+body {
+    font-family: "Inter", "Segoe UI", Roboto, sans-serif;
+    line-height: 1.7;
+    color: var(--text-main);
+}
+
+/* Headings */
+h1, h2, h3, h4 {
+    font-weight: 600;
+    color: var(--accent);
+    letter-spacing: -0.5px;
+}
+
+/* Links */
+a {
+    color: var(--accent);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: var(--accent-light);
+    text-decoration: underline;
+}
+
+/* Page width refinement */
+.main {
+    max-width: 760px;
+}
+
+/* Home info block */
+.home-info {
+    background: #FFFFFF !important;
+    padding: 2rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+/* Images */
+img {
+    border-radius: 6px;
+    max-width: 100%;
+}
+
+/* About page image centering */
+img[alt="Profile"] {
+    display: block;
+    margin: 0 auto 1.5rem auto;
+    max-width: 220px;
+}
+
+/* Remove extra top margin before the first HTML block on About page */
+.page-content > p:first-child {
+    margin-top: -10px !important;
+}
+
+/* Force consistent background across all pages */
+body,
+.home,
+.page {
+    background: var(--bg-soft) !important;
+}
