@@ -11,7 +11,7 @@ Senior Data & Analytics leader with 30+ years of experience, now expanding into 
 Exploring Microsoft Fabric, Azure AI, and modern ML/LLM workflows.
 
 <p style="text-align:center;">
-  <img src="/images/About.JPG" alt="Profile" style="max-width:220px; border-radius:6px;">
+  <img src="/images/About.jpg" alt="Profile" style="max-width:220px; border-radius:6px;">
 </p>
 
 ## Learning Arc
