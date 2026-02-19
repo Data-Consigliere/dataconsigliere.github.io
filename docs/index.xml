@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Data Consigliere on DataConsigliere</title>
+    <link>https://data-consigliere.github.io/</link>
+    <description>Recent content in Data Consigliere on DataConsigliere</description>
+    <generator>Hugo -- 0.155.3</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 19 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://data-consigliere.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Start Here</title>
+      <link>https://data-consigliere.github.io/start-here/</link>
+      <pubDate>Thu, 19 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://data-consigliere.github.io/start-here/</guid>
+      <description>&lt;p&gt;Welcome. If you&amp;rsquo;re new, this page gives you a quick overview of what DataConsigliere is about, what to read first, and how to navigate the site.&lt;/p&gt;
+&lt;h2 id=&#34;recommended-reading&#34;&gt;Recommended Reading&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;My journey into AI Engineering&lt;/li&gt;
+&lt;li&gt;Key concepts in Microsoft Fabric&lt;/li&gt;
+&lt;li&gt;Practical ML &amp;amp; LLM workflows&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;what-this-site-covers&#34;&gt;What This Site Covers&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Data &amp;amp; Analytics&lt;/li&gt;
+&lt;li&gt;AI Engineering&lt;/li&gt;
+&lt;li&gt;Microsoft Fabric&lt;/li&gt;
+&lt;li&gt;LLMs &amp;amp; Agents&lt;/li&gt;
+&lt;li&gt;Personal notes &amp;amp; reflections&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>What I Learned from Writing Online</title>
+      <link>https://data-consigliere.github.io/posts/what-i-learned-from-writing-online/</link>
+      <pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://data-consigliere.github.io/posts/what-i-learned-from-writing-online/</guid>
+      <description>&lt;p&gt;This is where your article begins.&lt;/p&gt;
+&lt;p&gt;Use clean paragraphs, short sentences, and clear structure.&lt;/p&gt;
+&lt;h2 id=&#34;a-section-heading&#34;&gt;A section heading&lt;/h2&gt;
+&lt;p&gt;More content here.&lt;/p&gt;
+&lt;h2 id=&#34;another-section&#34;&gt;Another section&lt;/h2&gt;
+&lt;p&gt;And so on.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>https://data-consigliere.github.io/about/</link>
+      <pubDate>Mon, 16 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://data-consigliere.github.io/about/</guid>
+      <description>&lt;h2 id=&#34;hi-im-josé-bagina&#34;&gt;Hi, I&amp;rsquo;m José Bagina&lt;/h2&gt;
+&lt;p&gt;Senior Data &amp;amp; Analytics leader with 30+ years of experience, now expanding into hands-on AI Engineering.
+Exploring Microsoft Fabric, Azure AI, and modern ML/LLM workflows.&lt;/p&gt;
+&lt;p style=&#34;text-align:center;&#34;&gt;
+  &lt;img src=&#34;https://data-consigliere.github.io/images/About.JPG&#34; alt=&#34;Profile&#34; style=&#34;max-width:220px; border-radius:6px;&#34;&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;learning-arc&#34;&gt;Learning Arc&lt;/h2&gt;
+&lt;p&gt;Over the years, my work has spanned data architecture, analytics strategy, business intelligence, and performance management. I’ve always been driven by a simple idea: &lt;strong&gt;clarity enables better decisions&lt;/strong&gt;. That principle has guided my entire career.&lt;/p&gt;
+&lt;p&gt;Today, I’m expanding that foundation into &lt;strong&gt;hands‑on AI Engineering&lt;/strong&gt;, deepening my expertise in Python, machine learning, deep learning, LLMs, and the Microsoft AI ecosystem.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
