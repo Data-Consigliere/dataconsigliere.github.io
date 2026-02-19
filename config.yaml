@@ -1,4 +1,7 @@
 baseURL: "https://data-consigliere.github.io/"
+# send generated site into docs/ so GitHub Pages can serve it
+publishDir: "docs"
+
 title: "DataConsigliere"
 theme: "PaperMod"
 languageCode: "en-us"
