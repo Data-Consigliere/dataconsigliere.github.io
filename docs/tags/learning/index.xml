@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Learning on DataConsigliere</title>
-    <link>https://data-consigliere.github.io/tags/learning/</link>
+    <link>http://localhost:1313/tags/learning/</link>
     <description>Recent content in Learning on DataConsigliere</description>
     <generator>Hugo -- 0.155.3</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 18 Feb 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://data-consigliere.github.io/tags/learning/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>What I Learned from Writing Online</title>
-      <link>https://data-consigliere.github.io/posts/example-post/</link>
+      <link>http://localhost:1313/posts/example-post/</link>
       <pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://data-consigliere.github.io/posts/example-post/</guid>
+      <guid>http://localhost:1313/posts/example-post/</guid>
       <description>&lt;p&gt;This is where your article begins.&lt;/p&gt;
 &lt;p&gt;Use clean paragraphs, short sentences, and clear structure.&lt;/p&gt;
 &lt;h2 id=&#34;a-section-heading&#34;&gt;A section heading&lt;/h2&gt;
