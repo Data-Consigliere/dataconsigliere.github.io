@@ -4,26 +4,15 @@ title: "DataConsigliere"
 theme: "PaperMod"
 publishDir: "docs"
 
-# ------------------------------
-# Global Parameters
-# ------------------------------
 params:
   defaultTheme: "light"
   disableThemeToggle: false
 
-  # Custom CSS
   assets:
     css:
       - css/custom.css
 
-  # Homepage Intro Block
-  homeInfoParams:
-    Title: "Hi, I'm José Bagina"
-    Content: >
-      Senior Data & Analytics leader with 30+ years of experience, now expanding into hands-on AI Engineering.
-      Exploring Microsoft Fabric, Azure AI, and modern ML/LLM workflows.
-
-  # Social Icons
+  # Social icons still available for About page or footer if needed
   socialIcons:
     - name: github
       url: "https://github.com/JoseBagina"
@@ -32,9 +21,6 @@ params:
     - name: email
       url: "mailto:data.consigliere@proton.me"
 
-# ------------------------------
-# Navigation Menu
-# ------------------------------
 menu:
   main:
     - identifier: start
@@ -52,17 +38,11 @@ menu:
       url: /about/
       weight: 20
 
-# ------------------------------
-# Markdown Rendering
-# ------------------------------
 markup:
   goldmark:
     renderer:
-      unsafe: true   # allows HTML inside Markdown
+      unsafe: true
 
-# ------------------------------
-# Taxonomies (Tags & Categories)
-# ------------------------------
 taxonomies:
   tag: "tags"
   category: "categories"

@@ -2,18 +2,8 @@
 
   <article>
 
-    <!-- Post Title -->
     <h1>{{ .Title }}</h1>
 
-    <!-- Table of Contents -->
-    {{ if .TableOfContents }}
-      <div class="toc">
-        <h3>Table of Contents</h3>
-        {{ .TableOfContents }}
-      </div>
-    {{ end }}
-
-    <!-- Metadata -->
     <div class="post-meta">
       {{ .Date.Format "Jan 2, 2006" }} • {{ .ReadingTime }} min read
     </div>
@@ -26,7 +16,6 @@
       </div>
     {{ end }}
 
-    <!-- Main Content -->
     <div class="post-content">
       {{ .Content }}
     </div>

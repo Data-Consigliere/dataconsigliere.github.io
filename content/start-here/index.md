@@ -1,5 +1,6 @@
 ---
 title: "Start Here"
+date: 2026-02-19
 ---
 
 Welcome. If you're new, this page gives you a quick overview of what DataConsigliere is about, what to read first, and how to navigate the site.

@@ -1,29 +1,10 @@
 {{ define "main" }}
 
-  <!-- Content from content/_index.md -->
+  <!-- Homepage intro from _index.md -->
   <div class="home-extra">
     {{ .Content }}
   </div>
 
-  <!-- Intro block (homeInfoParams) -->
-  <div class="home-info">
-    <h1>{{ .Site.Params.homeInfoParams.Title }}</h1>
-
-    <p class="home-subtitle">
-      {{ .Site.Params.homeInfoParams.Content }}
-    </p>
-
-    <!-- Social icons -->
-    <div class="social-icons">
-      {{ range .Site.Params.socialIcons }}
-        <a href="{{ .url }}" target="_blank" aria-label="{{ .name }}">
-          <i class="social-icon {{ .name }}"></i>
-        </a>
-      {{ end }}
-    </div>
-  </div>
-
-  <!-- Spacing before posts -->
   <div class="home-spacing"></div>
 
   <!-- Posts list -->
