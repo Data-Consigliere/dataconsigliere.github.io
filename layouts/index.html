@@ -26,4 +26,9 @@
     <p>No posts yet.</p>
   {{ end }}
 
+  <!-- Social icons -->
+  <div style="margin-top: 2rem;">
+    {{ partial "social_icons.html" (dict "socialIcons" site.Params.socialIcons "align" "left") }}  
+  </div>
+
 {{ end }}

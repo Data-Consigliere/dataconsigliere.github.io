@@ -1,5 +1,7 @@
 ---
 title: "About"
+showMeta: false
+showSocial: true
 date: 2026-02-16
 ---
 

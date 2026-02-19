@@ -1,18 +1,20 @@
 baseURL: "https://data-consigliere.github.io/"
-languageCode: "en-us"
 title: "DataConsigliere"
 theme: "PaperMod"
-publishDir: "docs"
+languageCode: "en-us"
+
+pagination:
+  pagerSize: 10
 
 params:
-  defaultTheme: "light"
-  disableThemeToggle: false
+  profileMode:
+    enabled: false
+  homeInfoParams: {}
 
-  assets:
-    css:
-      - css/custom.css
+  # Mostrar footer do PaperMod (necessário para social icons)
+  ShowFooter: true
 
-  # Social icons still available for About page or footer if needed
+  # Social icons
   socialIcons:
     - name: github
       url: "https://github.com/JoseBagina"
@@ -21,22 +23,21 @@ params:
     - name: email
       url: "mailto:data.consigliere@proton.me"
 
+assets:
+  css:
+    - css/custom.css
+
 menu:
   main:
-    - identifier: start
-      name: Start Here
-      url: /start-here/
-      weight: 5
-
-    - identifier: posts
-      name: Writings
-      url: /posts/
-      weight: 10
-
-    - identifier: about
-      name: About
-      url: /about/
-      weight: 20
+    - name: "Start Here"
+      url: "/start-here/"
+      weight: 1
+    - name: "Writings"
+      url: "/posts/"
+      weight: 2
+    - name: "About"
+      url: "/about/"
+      weight: 3
 
 markup:
   goldmark:
@@ -46,3 +47,6 @@ markup:
 taxonomies:
   tag: "tags"
   category: "categories"
+
+permalinks:
+  posts: "/posts/:slug/"
