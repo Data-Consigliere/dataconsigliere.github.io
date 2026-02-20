@@ -17,8 +17,7 @@ Data doesn’t remove doubt. It forces clarity.
 ---
 
 <p align="center">
-  Thirty years building what others use to decide — the work of a Consigliere.<br>
-  <strong>Now relearning the craft.</strong>
+  Thirty years building what others use to decide: the work of a Consigliere. <strong>Now relearning the craft.</strong>
 </p>
 
 ---

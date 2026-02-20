@@ -4,11 +4,11 @@
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="noindex, nofollow">
+<meta name="robots" content="index, follow">
 <title>Start Here | Data Consigliere</title>
 <meta name="keywords" content="">
 <meta name="description" content="What Data Consigliere is, who it&#39;s for, and where to start.">
-<meta name="author" content="">
+<meta name="author" content="José Bagina">
 <link rel="canonical" href="http://localhost:1313/start-here/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.css" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
@@ -70,6 +70,65 @@
         document.querySelector("html").dataset.theme = 'light';
     }
 
+</script><meta property="og:url" content="http://localhost:1313/start-here/">
+  <meta property="og:site_name" content="Data Consigliere">
+  <meta property="og:title" content="Start Here">
+  <meta property="og:description" content="What Data Consigliere is, who it&#39;s for, and where to start.">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:published_time" content="2026-02-19T10:00:00+00:00">
+    <meta property="article:modified_time" content="2026-02-19T10:00:00+00:00">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Start Here">
+<meta name="twitter:description" content="What Data Consigliere is, who it&#39;s for, and where to start.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Start Here",
+      "item": "http://localhost:1313/start-here/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Start Here",
+  "name": "Start Here",
+  "description": "What Data Consigliere is, who it's for, and where to start.",
+  "keywords": [
+    
+  ],
+  "articleBody": "Thirty years in Analytics and BI will teach you one thing above everything else: most problems that look like data problems aren’t.\nData Consigliere is where I work that out in public — documenting my move into hands-on Data Engineering and AI/ML. What works, what doesn’t, and what experience change about how you approach new technology.\nNo polished tutorials. No highlight reels. Just the real learning curve, written as it happens.\nThe name is deliberate. A consigliere isn’t the one making the call — he’s the one making sure the right question gets asked before anyone does. Most projects don’t fail on execution. They fail because nobody wanted to slow down long enough to ask the uncomfortable question at the start. That’s most of the job, honestly.\nWhere to start Recruiters and hiring managers — start with About. You’ll get the background, the approach, and a clear sense of how I think when there’s real ambiguity on the table. The writing will do the rest.\nBusiness leaders — About first. Then find a post about a problem you’ve lived through. That’s usually where it clicks.\nFellow practitioners — head straight to Writings. Every piece has two layers: the technical and the contextual. You can read either one. The interesting part is where they rub against each other.\nEveryone else — read one post end to end. You’ll know pretty quickly if this is for you.\nWhat you’ll find Three things, consistently:\nHands-on Data Engineering and AI — real implementations, real tradeoffs, real mistakes. The stuff that doesn’t make it into the conference talk.\nA bias toward simplicity — not as an aesthetic, as a discipline. Unnecessary complexity is just deferred cost. Someone always pays it.\nExperience as a lens — I’ve seen most of these patterns before, usually with different names. That’s not seniority. It’s pattern recognition. And it’s worth something.\nCadence When it’s ready. Quality over schedule.\nWriting here is also how I hold myself accountable. If I can’t explain it clearly, I don’t understand it well enough yet.\n",
+  "wordCount" : "340",
+  "inLanguage": "en",
+  "datePublished": "2026-02-19T10:00:00Z",
+  "dateModified": "2026-02-19T10:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "José Bagina"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/start-here/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Data Consigliere",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/favicon.ico"
+    }
+  }
+}
 </script>
 </head>
 <body id="top">
@@ -233,6 +292,53 @@
         }
     })
 
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
 </script>
 </body>
 

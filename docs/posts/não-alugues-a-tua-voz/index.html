@@ -4,11 +4,11 @@
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="noindex, nofollow">
+<meta name="robots" content="index, follow">
 <title>Não Alugues a Tua Voz | Data Consigliere</title>
 <meta name="keywords" content="Meta, Hugo, GitHub Pages, Filosofia">
 <meta name="description" content="Por que construí este blog do zero — e o que isso tem a ver com a forma como penso sobre dados, decisões e autonomia.">
-<meta name="author" content="">
+<meta name="author" content="José Bagina">
 <link rel="canonical" href="http://localhost:1313/posts/n%C3%A3o-alugues-a-tua-voz/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.css" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
@@ -70,6 +70,78 @@
         document.querySelector("html").dataset.theme = 'light';
     }
 
+</script><meta property="og:url" content="http://localhost:1313/posts/n%C3%A3o-alugues-a-tua-voz/">
+  <meta property="og:site_name" content="Data Consigliere">
+  <meta property="og:title" content="Não Alugues a Tua Voz">
+  <meta property="og:description" content="Por que construí este blog do zero — e o que isso tem a ver com a forma como penso sobre dados, decisões e autonomia.">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-05-20T10:00:00+00:00">
+    <meta property="article:modified_time" content="2024-05-20T10:00:00+00:00">
+    <meta property="article:tag" content="Meta">
+    <meta property="article:tag" content="Hugo">
+    <meta property="article:tag" content="GitHub Pages">
+    <meta property="article:tag" content="Filosofia">
+    <meta property="og:image" content="http://localhost:1313/images/about.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://localhost:1313/images/about.jpg">
+<meta name="twitter:title" content="Não Alugues a Tua Voz">
+<meta name="twitter:description" content="Por que construí este blog do zero — e o que isso tem a ver com a forma como penso sobre dados, decisões e autonomia.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Writings",
+      "item": "http://localhost:1313/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Não Alugues a Tua Voz",
+      "item": "http://localhost:1313/posts/n%C3%A3o-alugues-a-tua-voz/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Não Alugues a Tua Voz",
+  "name": "Não Alugues a Tua Voz",
+  "description": "Por que construí este blog do zero — e o que isso tem a ver com a forma como penso sobre dados, decisões e autonomia.",
+  "keywords": [
+    "Meta", "Hugo", "GitHub Pages", "Filosofia"
+  ],
+  "articleBody": "Há uma distinção que aprendi a fazer — não em código, mas em negócio — entre activos e canais alugados.\nUm canal alugado é rápido. Dás uma plataforma os teus melhores pensamentos, ela amplifica-os enquanto lhe convém, e um dia muda o algoritmo, as condições de serviço, ou simplesmente fecha. O Medium pode restringir leituras. O Substack pode mudar o modelo de negócio. O LinkedIn pode decidir que o teu conteúdo compete com o deles.\nNão tenho nada contra essas plataformas. Mas não quero alugar a minha voz.\nO Data Consigliere existe aqui, neste domínio, gerado por código que controlo, publicado numa infraestrutura que compreendo. Não por purismo técnico — por princípio estratégico.\nO Problema com “Começar Rápido” Quando alguém com trinta anos de experiência em Analytics decide criar presença digital, a recomendação padrão é sempre a mesma: usa uma plataforma pronta, não percas tempo com infraestrutura.\nÉ um conselho razoável para a maioria. Para mim, era exactamente o problema.\nTrabalho com dados há décadas. Sei o que acontece quando uma organização constrói os seus processos críticos sobre sistemas que não controla: fica refém. Paga royalties. Perde agilidade. E quando quer mudar, o custo de migração é proibitivo.\nNão ia fazer o mesmo com o meu próprio pensamento.\nA Escolha do Stack: Minimalismo como Postura A escolha foi deliberada e rápida: Hugo como gerador de sites estáticos, PaperMod como tema, GitHub Pages como infraestrutura.\nPorquê?\nO Hugo é escrito em Go. Compila um site com centenas de posts em menos de um segundo. Não há base de dados, não há servidor a gerir, não há vulnerabilidades a patchar. É um binário. Funciona.\nO PaperMod é a escolha de quem respeita o leitor: limpo, rápido, com modo escuro impecável. Não há carrosséis de imagens, não há pop-ups de newsletter, não há distrações. O texto é o produto.\nO GitHub Pages serve ficheiros estáticos gratuitamente, com HTTPS, com redundância global. É a infraestrutura mais simples possível para o que preciso.\nO fluxo de trabalho que resulta disto é o seguinte: escrevo em Markdown no VS Code, faço git push, e o site está online. É o modelo Docs as Code aplicado ao pensamento pessoal.\nO que as Máquinas Não Te Contam (e os Humanos Também Não) O deploy inicial foi uma lição de humildade clássica — o tipo que só aprende quem põe as mãos na massa.\nCase sensitivity não é teórica. No meu ambiente Windows, About.jpg e about.jpg são a mesma coisa. No servidor Linux do GitHub, não são. O erro 404 que me perseguiu durante horas tinha uma causa absurdamente simples: capitalização inconsistente nos nomes de ficheiros. A lição não é técnica — é sobre assumir que o ambiente de produção vai ser diferente do teu ambiente de desenvolvimento. Sempre. Regra: tudo em minúsculas, para sempre.\nO GitHub Pages não é um servidor passivo. Por omissão, tenta processar o site com Jekyll — o seu próprio gerador. Para um site Hugo, isso é um desastre silencioso. A solução é um ficheiro vazio chamado .nojekyll na raiz do repositório. Um ficheiro vazio. Que faz toda a diferença. Há uma metáfora aqui sobre burocracia organizacional, mas deixo para outro dia.\nIntegridade tem custos. O Hugo gera um hash criptográfico do CSS por questões de segurança. Se o ficheiro for modificado durante o upload — mesmo que por um byte — o browser bloqueia o carregamento. A solução foi desactivar o fingerprinting. Aprendi que segurança máxima e pragmatismo operacional raramente coexistem sem negociação.\nO que Este Blog Não É Não é um tutorial. Não é um repositório de certezas. Não é o palco de um guru que chegou a algum lado e vem distribuir sabedoria.\nÉ o caderno de campo de alguém em trânsito. Da Analytics tradicional para Engenharia de Dados e AI/ML. De executar análises para arquitectar sistemas. De consumir dados para os governar.\nO nome Data Consigliere não é uma pose. É uma postura. O consigliere não grita. Não vende. Fala com precisão para quem precisa de clareza — não de ruído. Serve os líderes que têm de tomar decisões difíceis com informação imperfeita. Conhece o campo inteiro, não apenas a sua peça.\nÉ essa a ambição.\nA Fundação Está Sólida O site está online. O fluxo de trabalho funciona. A voz está a começar a tomar forma.\nO próximo passo é o que realmente importa: deixar de falar sobre a ferramenta e começar a usar a ferramenta para falar sobre o que interessa — dados, decisões, arquitecturas, e as escolhas que definem a diferença entre sistemas que servem e sistemas que aprisionam.\nSe estás a ler isto, chegaste cedo. Isso é bom sinal para ti.\nO Data Consigliere é publicado em data-consigliere.github.io. Sem algoritmos a satisfazer. Sem métricas de engagement a optimizar. Apenas pensamento estruturado, publicado com consistência.\n",
+  "wordCount" : "798",
+  "inLanguage": "en",
+  "image":"http://localhost:1313/images/about.jpg","datePublished": "2024-05-20T10:00:00Z",
+  "dateModified": "2024-05-20T10:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "José Bagina"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/posts/n%C3%A3o-alugues-a-tua-voz/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Data Consigliere",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/favicon.ico"
+    }
+  }
+}
 </script>
 </head>
 <body id="top">
@@ -263,6 +335,53 @@
         }
     })
 
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
 </script>
 </body>
 

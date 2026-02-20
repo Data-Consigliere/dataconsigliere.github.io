@@ -4,7 +4,7 @@
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="noindex, nofollow">
+<meta name="robots" content="index, follow">
 <title>Data Consigliere | Data Consigliere</title>
 <meta name="keywords" content="">
 <meta name="description" content="Welcome to DataConsigliere — my space for sharing insights, experiments, my journey ahead and thoughts on data, AI engineering, and the craft of building intelligent systems.
@@ -23,7 +23,7 @@
       
     
 ">
-<meta name="author" content="">
+<meta name="author" content="José Bagina">
 <link rel="canonical" href="http://localhost:1313/_index0/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.css" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
@@ -85,6 +85,78 @@
         document.querySelector("html").dataset.theme = 'light';
     }
 
+</script><meta property="og:url" content="http://localhost:1313/_index0/">
+  <meta property="og:site_name" content="Data Consigliere">
+  <meta property="og:title" content="Data Consigliere">
+  <meta property="og:description" content="Welcome to DataConsigliere — my space for sharing insights, experiments, my journey ahead and thoughts on data, AI engineering, and the craft of building intelligent systems.">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Data Consigliere">
+<meta name="twitter:description" content="Welcome to DataConsigliere — my space for sharing insights, experiments, my journey ahead and thoughts on data, AI engineering, and the craft of building intelligent systems.
+
+  
+
+
+
+    
+      
+    
+    
+      
+    
+    
+      
+    
+">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Data Consigliere",
+      "item": "http://localhost:1313/_index0/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Data Consigliere",
+  "name": "Data Consigliere",
+  "description": "Welcome to DataConsigliere — my space for sharing insights, experiments, my journey ahead and thoughts on data, AI engineering, and the craft of building intelligent systems.\n",
+  "keywords": [
+    
+  ],
+  "articleBody": "Welcome to DataConsigliere — my space for sharing insights, experiments, my journey ahead and thoughts on data, AI engineering, and the craft of building intelligent systems.\n",
+  "wordCount" : "26",
+  "inLanguage": "en",
+  "datePublished": "0001-01-01T00:00:00Z",
+  "dateModified": "0001-01-01T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "José Bagina"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/_index0/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Data Consigliere",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/favicon.ico"
+    }
+  }
+}
 </script>
 </head>
 <body id="top">
@@ -245,6 +317,53 @@
         }
     })
 
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
 </script>
 </body>
 

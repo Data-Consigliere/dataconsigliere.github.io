@@ -23,6 +23,10 @@ menu:
 
 # --- PARÂMETROS DO TEMA ---
 params:
+  env: production
+  description: "30 years of Data. Less hype, more clarity."
+  author: "José Bagina"
+  
   # Essencial para GitHub Pages
   assets:
     disableFingerprinting: true
@@ -33,6 +37,11 @@ params:
   homeInfoParams: {}
   ShowFooter: true
 
+  ShowCodeCopyButtons: true
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  
   # Redes Sociais
   socialIcons:
     - name: github
