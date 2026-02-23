@@ -1,6 +1,7 @@
 ---
 title: "Data Consigliere"
-description: "Thirty years building Analytics. Now relearning the craft."
+draft: false
+description: "A practitioner documenting the move from Analytics into AI and Data Engineering. Structured thinking on data, decisions, and the craft of building things that actually work."
 ---
 
 <p>

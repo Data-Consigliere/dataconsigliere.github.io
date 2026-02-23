@@ -1,14 +1,14 @@
 ---
 title: "Don't Rent Your Voice"
-date: 2024-05-19T10:00:00Z
+date: 2026-02-22T11:30:00Z
 draft: false
-description: "Why build your own platform instead of using ready‑made solutions? Digital sovereignty, the Hugo + GitHub Pages stack and what that has to do with how I think about data, decisions, and autonomy."
-tags: ["Meta", "Hugo", "GitHub Pages", "Philosophy"]
-categories: ["Engineering"]
+description: "Your voice on someone else's terms is just borrowed time."
+tags: ["Meta", "Opinion"]
+categories: ["Learning in Public"]
 cover:
   image: "/images/Laptop.jpg"
-  alt: "Terminal running Hugo commands"
-  caption: "Where autonomy begins."
+  alt: "White desk with laptop, earbuds, smartphone and notebook — a minimal personal workspace"
+  caption: "A workspace you own. A voice you keep."
   relative: false
   hiddenInList: false
   hiddenInSingle: false

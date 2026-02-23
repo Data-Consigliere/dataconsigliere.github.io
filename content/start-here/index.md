@@ -1,8 +1,8 @@
 ---
 title: "Start Here"
-date: 2026-02-19T10:00:00Z
+date: 2026-02-15T11:30:00Z
 draft: false
-description: "What Data Consigliere is, who it's for, and where to start."
+description: "New here? Start with the context — what this site is, who it's for, and where to begin."
 ---
 
 Thirty years in Analytics and BI will teach you one thing above everything else: most problems that look like data problems aren't.

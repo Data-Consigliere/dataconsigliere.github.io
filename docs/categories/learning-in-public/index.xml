@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Learning in Public on Data Consigliere</title>
+    <link>https://data-consigliere.github.io/categories/learning-in-public/</link>
+    <description>Recent content in Learning in Public on Data Consigliere</description>
+    <generator>Hugo -- 0.155.3</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 22 Feb 2026 11:30:00 +0000</lastBuildDate>
+    <atom:link href="https://data-consigliere.github.io/categories/learning-in-public/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Don&#39;t Rent Your Voice</title>
+      <link>https://data-consigliere.github.io/posts/dont-rent-your-voice/</link>
+      <pubDate>Sun, 22 Feb 2026 11:30:00 +0000</pubDate>
+      <guid>https://data-consigliere.github.io/posts/dont-rent-your-voice/</guid>
+      <description>Your voice on someone else&amp;#39;s terms is just borrowed time.</description>
+    </item>
+  </channel>
+</rss>

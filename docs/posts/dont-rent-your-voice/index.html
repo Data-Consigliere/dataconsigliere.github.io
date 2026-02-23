@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Don&#39;t Rent Your Voice | Data Consigliere</title>
+<meta name="keywords" content="Meta, Opinion">
+<meta name="description" content="Your voice on someone else&#39;s terms is just borrowed time.">
+<meta name="author" content="José Bagina">
+<link rel="canonical" href="https://data-consigliere.github.io/posts/dont-rent-your-voice/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.css" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://data-consigliere.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://data-consigliere.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://data-consigliere.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://data-consigliere.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://data-consigliere.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://data-consigliere.github.io/posts/dont-rent-your-voice/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="https://data-consigliere.github.io/posts/dont-rent-your-voice/">
+  <meta property="og:site_name" content="Data Consigliere">
+  <meta property="og:title" content="Don&#39;t Rent Your Voice">
+  <meta property="og:description" content="Your voice on someone else&#39;s terms is just borrowed time.">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-02-22T11:30:00+00:00">
+    <meta property="article:modified_time" content="2026-02-22T11:30:00+00:00">
+    <meta property="article:tag" content="Meta">
+    <meta property="article:tag" content="Opinion">
+    <meta property="og:image" content="https://data-consigliere.github.io/images/Laptop.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://data-consigliere.github.io/images/Laptop.jpg">
+<meta name="twitter:title" content="Don&#39;t Rent Your Voice">
+<meta name="twitter:description" content="Your voice on someone else&#39;s terms is just borrowed time.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Writings",
+      "item": "https://data-consigliere.github.io/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Don't Rent Your Voice",
+      "item": "https://data-consigliere.github.io/posts/dont-rent-your-voice/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Don't Rent Your Voice",
+  "name": "Don\u0027t Rent Your Voice",
+  "description": "Your voice on someone else's terms is just borrowed time.",
+  "keywords": [
+    "Meta", "Opinion"
+  ],
+  "articleBody": "Built from Scratch. Or Control Over Convenience Rented platforms are fast and tempting: you pour your best thinking into them, they amplify it while it suits them — and then, one day, without warning or apology, they change the algorithm, change the rules, throttle your reach, or just shut the door.\nMedium paywalls your readers. Substack pivots its model. LinkedIn quietly decides your content may compete with theirs.\nNo beef with any of them. I just don’t want to rent my voice.\nThe “Just Use a Platform” Question When I started thinking about building a digital presence, the advice was immediate and unanimous:\n“Use something off the shelf. Don’t waste time on infrastructure.”\nSolid advice. And exactly why it bothered me.\nI’ve worked in data for decades. I’ve seen this movie too many times: an organization builds critical workflows on systems it doesn’t own, and before long it’s locked in. Paying rent. Moving slow. And when it finally tries to leave, the migration cost is the real tax — no receipt included.\nNot doing that with my own thinking.\nChoosing the Stack Minimalism as a lifestyle.\nThe decision came fast: GitHub Pages + Hugo + PaperMod\nGitHub Pages serves static files for free, with HTTPS and global redundancy. Infrastructure that’s basically invisible — exactly how it should be.\nHugo is written in Go and builds a site with hundreds of posts in under a second. No database. No server babysitting. No “we need to patch this Friday night at 11pm.” It’s a binary. It works. (Yes, it’s almost offensively simple — that’s the point.)\nPaperMod is a theme that respects the reader. Clean, fast, excellent dark mode. No carousels. No pop-ups. No dark patterns grabbing for your attention like a toddler in a toy store. The writing is the product.\nThe workflow:\nMarkdown file in VS Code → git push → live in seconds\nDocs as Code applied to personal thinking.\nFrom Thinking to Doing Step by step. No journey. No violins.\n1. The Repository (Github) Created a public GitHub repo using the username.github.io convention. This matters: it’s how GitHub Pages knows where your site root lives. Then, straight to the terminal:\ngit clone https://github.com/data-consigliere/data-consigliere.github.io.git 2. The Engine (Hugo) Install Hugo on Windows the clean way — Winget, no “next, next, finish” wizard:\nwinget install Hugo.Hugo.Extended The Extended version matters: it handles SCSS processing, which themes like PaperMod require.\nVerify it landed:\nhugo version Then scaffold the site inside the repo folder:\nhugo new site . --force The --force flag was needed because the folder already had a .git directory. Output: the standard folder structure — content, layouts, static — and the essential config.yaml.\n3. The Aesthetics (PaperMod) A technical blog needs to be readable, not pretty. I wasn’t about to hand-roll HTML and CSS from scratch. PaperMod installed as a Git submodule — cleaner updates, no drama:\ngit submodule add https://github.com/adityatelange/hugo-PaperMod themes/PaperMod In config.yaml:\ntheme: \"PaperMod\" 4. Structure and Content Because a site without pages is just a domain name with ambitions.\nFile Purpose content/_index.md Homepage and intro content/about/index.md Background and project context content/start-here/index.md Front door for first-time visitors: what this is, who it’s for, where to start Navigation wired up in config.yaml, mapping labels to URLs.\n5. The Personal Touch (CSS) PaperMod is great out of the box, but I wanted something closer to a classic editorial feel — serif body text, sans-serif headers. Created:\nassets/css/extended/custom.css Hugo and PaperMod auto-merge anything in that extended folder — no hacks, no aggressive overrides. That’s where I set typography (Georgia for reading, Inter for headers) and capped content width for comfortable line lengths. Readability over real estate.\nResources I Used Hugo Quick Start — official docs, surprisingly good PaperMod Wiki — more configurable than it looks GitHub Pages Docs — no surprises 🎥 Hugo + GitHub Pages Tutorial — what convinced me this was an afternoon project, not a week-long one What the Machines Don’t Tell You (and Neither Do the Humans) Deployment was the classic humility check. Good news: the problems were dumb. Bad news: dumb problems are still annoying.\nCase sensitivity is real — and it will get you. On Windows, About.jpg and about.jpg are the same file. On GitHub’s Linux servers, they’re not. My 404 rabbit hole had a laughably simple root cause: inconsistent capitalization. The lesson isn’t technical — it’s about never assuming your dev environment matches production. Rule I kept: lowercase everything, always.\nGitHub Pages “wants to help.” Decline politely. By default, it tries to process your site with Jekyll — its own static generator. On a Hugo site, this is a silent disaster. The fix? An empty file named .nojekyll in the repo root.\nOne. Empty. File. Changes everything. There’s a metaphor about organizational bureaucracy here, but I’ll save it for another post.\nMaximum security means maximum friction. Hugo can generate cryptographic hashes of your CSS (fingerprinting) as a security measure. If the file changes during upload — even one byte — the browser blocks it, no explanation offered.\nI turned off fingerprinting. Learned (again) that security and pragmatism don’t coexist without conscious negotiation.\nMarkdown has tricks worth knowing. Small conventions that add up:\n--- to break sections and let the text breathe \u003e Note for callouts and context backticks for filenames and inline commands bold to guide the reader’s eye without shouting. Solid foundation. Now the Real Work Starts. There’s something genuinely satisfying about watching a system you built go live — accessible to anyone, anywhere, served from a repo that’s yours.\nThe site’s up. The workflow runs. The voice is taking shape.\nWhat comes next is what actually matters: stop talking about the tool and use the tool to talk about what’s worth talking about — data, decisions, architectures, and the choices that separate systems that serve you from systems that own you.\nIf you’re reading this, you got here early. We’re just getting started. That’s a good sign for you.\nThe Data Consigliere publishes at data-consigliere.github.io. No algorithm to appease. No engagement metrics to chase. Just structured thinking, shipped consistently.\n",
+  "wordCount" : "1008",
+  "inLanguage": "en",
+  "image":"https://data-consigliere.github.io/images/Laptop.jpg","datePublished": "2026-02-22T11:30:00Z",
+  "dateModified": "2026-02-22T11:30:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "José Bagina"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://data-consigliere.github.io/posts/dont-rent-your-voice/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Data Consigliere",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://data-consigliere.github.io/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://data-consigliere.github.io/" accesskey="h" title="Data Consigliere (Alt + H)">Data Consigliere</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://data-consigliere.github.io/start-here/" title="Start Here">
+                    <span>Start Here</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://data-consigliere.github.io/posts/" title="Writings">
+                    <span>Writings</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://data-consigliere.github.io/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Don&#39;t Rent Your Voice
+    </h1>
+    <div class="post-description">
+      Your voice on someone else&#39;s terms is just borrowed time.
+    </div>
+    <div class="post-meta"><span title='2026-02-22 11:30:00 +0000 UTC'>February 22, 2026</span>&nbsp;·&nbsp;<span>5 min</span>&nbsp;·&nbsp;<span>José Bagina</span>
+
+</div>
+  </header> 
+<figure class="entry-cover">
+        <img loading="eager" src="https://data-consigliere.github.io/images/Laptop.jpg" alt="White desk with laptop, earbuds, smartphone and notebook — a minimal personal workspace">
+        <figcaption>A workspace you own. A voice you keep.</figcaption>
+</figure>
+  <div class="post-content"><h3 id="built-from-scratch-or-control-over-convenience">Built from Scratch. Or Control Over Convenience<a hidden class="anchor" aria-hidden="true" href="#built-from-scratch-or-control-over-convenience">#</a></h3>
+<p>Rented platforms are fast and tempting: you pour your best thinking into them, they amplify it while it suits them — and then, one day, without warning or apology, they change the algorithm, change the rules, throttle your reach, or just shut the door.</p>
+<p><em>Medium</em> paywalls your readers. <em>Substack</em> pivots its model. <em>LinkedIn</em> quietly decides your content may compete with theirs.</p>
+<p>No beef with any of them. I just <strong>don&rsquo;t want to rent my voice</strong>.</p>
+<hr>
+<h2 id="the--question">The <em>&ldquo;Just Use a Platform&rdquo;</em> Question<a hidden class="anchor" aria-hidden="true" href="#the--question">#</a></h2>
+<p>When I started thinking about building a digital presence, the advice was immediate and unanimous:</p>
+<blockquote>
+<p><em>&ldquo;Use something off the shelf. Don&rsquo;t waste time on infrastructure.&rdquo;</em></p>
+</blockquote>
+<p>Solid advice. And exactly why it bothered me.</p>
+<p>I&rsquo;ve worked in data for decades. I&rsquo;ve seen this movie too many times: an organization builds critical workflows on systems it doesn&rsquo;t own, and before long it&rsquo;s locked in. Paying rent. Moving slow. And when it finally tries to leave, the migration cost is the real tax — no receipt included.</p>
+<p>Not doing that with my own thinking.</p>
+<hr>
+<h2 id="choosing-the-stack">Choosing the Stack<a hidden class="anchor" aria-hidden="true" href="#choosing-the-stack">#</a></h2>
+<p><em>Minimalism as a lifestyle.</em></p>
+<p>The decision came fast: <strong>GitHub Pages + Hugo + PaperMod</strong></p>
+<ul>
+<li>
+<p><strong>GitHub Pages</strong> serves static files for free, with HTTPS and global redundancy. Infrastructure that&rsquo;s basically invisible — exactly how it should be.</p>
+</li>
+<li>
+<p><strong>Hugo</strong> is written in Go and builds a site with hundreds of posts in under a second. No database. No server babysitting. No <em>&ldquo;we need to patch this Friday night at 11pm.&rdquo;</em> It&rsquo;s a binary. It works. <em>(Yes, it&rsquo;s almost offensively simple — that&rsquo;s the point.)</em></p>
+</li>
+<li>
+<p><strong>PaperMod</strong> is a theme that respects the reader. Clean, fast, excellent dark mode. No carousels. No pop-ups. No dark patterns grabbing for your attention like a toddler in a toy store. The writing is the product.</p>
+</li>
+</ul>
+<p>The workflow:</p>
+<blockquote>
+<p><em>Markdown file in VS Code  →  git push  →  live in seconds</em></p>
+</blockquote>
+<p><em>Docs as Code</em> applied to personal thinking.</p>
+<hr>
+<h2 id="from-thinking-to-doing">From Thinking to Doing<a hidden class="anchor" aria-hidden="true" href="#from-thinking-to-doing">#</a></h2>
+<p><em>Step by step. No journey. No violins.</em></p>
+<h3 id="1-the-repository-github">1. The Repository (Github)<a hidden class="anchor" aria-hidden="true" href="#1-the-repository-github">#</a></h3>
+<p>Created a public GitHub repo using the <code>username.github.io</code> convention. This matters: it&rsquo;s how GitHub Pages knows where your site root lives. Then, straight to the terminal:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git clone https://github.com/data-consigliere/data-consigliere.github.io.git
+</span></span></code></pre></div><br>
+<h3 id="2-the-engine-hugo">2. The Engine (Hugo)<a hidden class="anchor" aria-hidden="true" href="#2-the-engine-hugo">#</a></h3>
+<p>Install Hugo on Windows the clean way — Winget, no <em>&ldquo;next, next, finish&rdquo;</em> wizard:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>winget install Hugo.Hugo.Extended
+</span></span></code></pre></div><blockquote>
+<p>The <strong>Extended</strong> version matters: it handles SCSS processing, which themes like PaperMod require.</p>
+</blockquote>
+<p>Verify it landed:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo version
+</span></span></code></pre></div><p>Then scaffold the site inside the repo folder:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo new site . --force
+</span></span></code></pre></div><p>The <code>--force</code> flag was needed because the folder already had a <code>.git</code> directory. Output: the standard folder structure — <code>content</code>, <code>layouts</code>, <code>static</code> — and the essential <code>config.yaml</code>.</p>
+<br>
+<h3 id="3-the-aesthetics-papermod">3. The Aesthetics (PaperMod)<a hidden class="anchor" aria-hidden="true" href="#3-the-aesthetics-papermod">#</a></h3>
+<p>A technical blog needs to be readable, not pretty. I wasn&rsquo;t about to hand-roll HTML and CSS from scratch. PaperMod installed as a Git submodule — cleaner updates, no drama:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git submodule add https://github.com/adityatelange/hugo-PaperMod themes/PaperMod
+</span></span></code></pre></div><p>In <code>config.yaml</code>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#f92672">theme</span>: <span style="color:#e6db74">&#34;PaperMod&#34;</span>
+</span></span></code></pre></div><br>
+<h3 id="4-structure-and-content">4. Structure and Content<a hidden class="anchor" aria-hidden="true" href="#4-structure-and-content">#</a></h3>
+<p>Because a site without pages is just a domain name with ambitions.</p>
+<table>
+  <thead>
+      <tr>
+          <th>File</th>
+          <th>Purpose</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><code>content/_index.md</code></td>
+          <td>Homepage and intro</td>
+      </tr>
+      <tr>
+          <td><code>content/about/index.md</code></td>
+          <td>Background and project context</td>
+      </tr>
+      <tr>
+          <td><code>content/start-here/index.md</code></td>
+          <td>Front door for first-time visitors: what this is, who it&rsquo;s for, where to start</td>
+      </tr>
+  </tbody>
+</table>
+<p>Navigation wired up in <code>config.yaml</code>, mapping labels to URLs.</p>
+<br>
+<h3 id="5-the-personal-touch-css">5. The Personal Touch (CSS)<a hidden class="anchor" aria-hidden="true" href="#5-the-personal-touch-css">#</a></h3>
+<p>PaperMod is great out of the box, but I wanted something closer to a classic editorial feel — serif body text, sans-serif headers. Created:</p>
+<pre tabindex="0"><code>assets/css/extended/custom.css
+</code></pre><p>Hugo and PaperMod auto-merge anything in that <code>extended</code> folder — no hacks, no aggressive overrides. That&rsquo;s where I set typography (Georgia for reading, Inter for headers) and capped content width for comfortable line lengths. Readability over real estate.</p>
+<hr>
+<h3 id="resources-i-used">Resources I Used<a hidden class="anchor" aria-hidden="true" href="#resources-i-used">#</a></h3>
+<ul>
+<li><a href="https://gohugo.io/getting-started/quick-start/">Hugo Quick Start</a> — official docs, surprisingly good</li>
+<li><a href="https://github.com/adityatelange/hugo-PaperMod/wiki">PaperMod Wiki</a> — more configurable than it looks</li>
+<li><a href="https://docs.github.com/en/pages">GitHub Pages Docs</a> — no surprises</li>
+<li>🎥 <a href="https://www.youtube.com/watch?v=LIFvgrRxdt4">Hugo + GitHub Pages Tutorial</a> — what convinced me this was an afternoon project, not a week-long one</li>
+</ul>
+<hr>
+<h2 id="what-the-machines-dont-tell-you-and-neither-do-the-humans">What the Machines Don&rsquo;t Tell You (and Neither Do the Humans)<a hidden class="anchor" aria-hidden="true" href="#what-the-machines-dont-tell-you-and-neither-do-the-humans">#</a></h2>
+<p>Deployment was the classic humility check.
+Good news: the problems were dumb.
+Bad news: dumb problems are still annoying.</p>
+<p><strong>Case sensitivity is real — and it will get you.</strong>
+On Windows, <code>About.jpg</code> and <code>about.jpg</code> are the same file. On GitHub&rsquo;s Linux servers, they&rsquo;re not. My 404 rabbit hole had a laughably simple root cause: inconsistent capitalization. The lesson isn&rsquo;t technical — it&rsquo;s about never assuming your dev environment matches production.
+<em>Rule I kept: lowercase everything, always.</em></p>
+<p><strong>GitHub Pages &ldquo;wants to help.&rdquo; Decline politely.</strong>
+By default, it tries to process your site with Jekyll — its own static generator. On a Hugo site, this is a silent disaster. The fix? An empty file named <code>.nojekyll</code> in the repo root.</p>
+<p><em>One. Empty. File.</em> Changes everything. There&rsquo;s a metaphor about organizational bureaucracy here, but I&rsquo;ll save it for another post.</p>
+<p><strong>Maximum security means maximum friction.</strong>
+Hugo can generate cryptographic hashes of your CSS (fingerprinting) as a security measure. If the file changes during upload — even one byte — the browser blocks it, no explanation offered.</p>
+<p>I turned off fingerprinting. Learned (again) that security and pragmatism don&rsquo;t coexist without conscious negotiation.</p>
+<p><strong>Markdown has tricks worth knowing.</strong> Small conventions that add up:</p>
+<ul>
+<li><code>---</code> to break sections and let the text breathe</li>
+<li><code>&gt; Note</code> for callouts and context</li>
+<li>backticks for filenames and inline commands</li>
+<li><strong>bold</strong> to guide the reader&rsquo;s eye without shouting.</li>
+</ul>
+<hr>
+<h2 id="solid-foundation-now-the-real-work-starts">Solid foundation. Now the Real Work Starts.<a hidden class="anchor" aria-hidden="true" href="#solid-foundation-now-the-real-work-starts">#</a></h2>
+<p>There&rsquo;s something genuinely satisfying about watching a system you built go live — accessible to anyone, anywhere, served from a repo that&rsquo;s yours.</p>
+<p>The site&rsquo;s up. The workflow runs. The voice is taking shape.</p>
+<p>What comes next is what actually matters: <em>stop talking about the tool and use the tool to talk about what&rsquo;s worth talking about</em> — data, decisions, architectures, and the choices that separate systems that serve you from systems that own you.</p>
+<p>If you&rsquo;re reading this, you got here early. <strong>We&rsquo;re just getting started</strong>. That&rsquo;s a good sign for you.</p>
+<hr>
+<p><em>The Data Consigliere publishes at <a href="https://data-consigliere.github.io">data-consigliere.github.io</a>. No algorithm to appease. No engagement metrics to chase. Just structured thinking, shipped consistently.</em></p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://data-consigliere.github.io/tags/meta/">Meta</a></li>
+      <li><a href="https://data-consigliere.github.io/tags/opinion/">Opinion</a></li>
+    </ul>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="https://data-consigliere.github.io/">Data Consigliere</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

@@ -1,8 +1,8 @@
 ---
 title: "About"
-date: 2026-02-16T10:00:00Z
+date: 2026-02-08T07:30:00Z
 draft: false
-description: "Thirty years in Analytics and BI. Now going deeper."
+description: "BI Dev at the heart, getting back to the terminal. Documenting the transition, unfiltered."
 ---
 
 I'm José Bagina. I started working with data back when a "database" was just a file on a ZX Spectrum. Thirty years later, I'm still in the same line of work — the landscape just changed around me.
