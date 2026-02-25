@@ -18,12 +18,12 @@ Data doesn’t remove doubt. It forces clarity.
 ---
 
 <p align="center">
-  Thirty years building what others use to decide: the work of a Consigliere. <strong>Now relearning the craft.</strong>
+  Decades building what others use to decide: the work of a Consigliere. <strong>Now relearning the craft.</strong>
 </p>
 
----
-
 I’m documenting a transition — from Analytics into Data Engineering and AI/ML — *unfiltered, mistakes included*.
+
+---
 
 → New here? Go to **[Start Here](/start-here/)**  
 → Looking for something specific? Go to **[Writings](/posts/)**  

@@ -8,7 +8,7 @@ description: "BI Dev at the heart, getting back to the terminal. Documenting the
 I'm José Bagina. I started working with data back when a "database" was just a file on a ZX Spectrum. Thirty years later, I'm still in the same line of work — the landscape just changed around me.
 
 <p style="text-align:center;">
-  <img src="/images/About.jpg" alt="Profile" style="max-width:145px; border-radius:4px;">
+  <img src="/images/About.png" alt="Profile" style="max-width:145px; border-radius:4px;">
 </p>
 
 My path ran through hands-on Analytics and Business Intelligence in industries where decisions carry real weight: healthcare, banking, retail, manufacturing, hospitality and fashion. 

@@ -9,7 +9,7 @@ Thirty years in Analytics and BI will teach you one thing above everything else:
 
 **Data Consigliere** is where I work that out in public — documenting my move into hands-on *Data Engineering and AI/ML*. What works, what doesn't, and what experience change about how you approach new technology.
 
-No polished tutorials. No highlight reels. Just the real learning curve, written as it happens.
+No polished tutorials. No highlight reels. Just the real learning curve, written as I work through it.
 
 The name is deliberate. A **consigliere** isn't the one making the call — he's the one making sure the right question gets asked before anyone does. Most projects don't fail on execution. They fail because nobody wanted to slow down long enough to ask the uncomfortable question at the start. That's most of the job, honestly.
 
@@ -35,7 +35,7 @@ Three things, consistently:
 
 **A bias toward simplicity** — not as an aesthetic, as a discipline. Unnecessary complexity is just deferred cost. Someone always pays it.
 
-**Experience as a lens** — I've seen most of these patterns before, usually with different names. That's not seniority. It's pattern recognition. And it's worth something.
+**Experience as a lens** — I've seen most of these patterns before, usually with different names. That's not seniority. It's pattern recognition.
 
 ## Cadence
 
